@@ -25,8 +25,8 @@ Referencing `@workspace` in Copilot Chat lets you ask questions about your entir
   - `"@workspace which API routes depend on this service?"` - Lists the routes that use the service in the selected code
   - `"How do I build this #codebase?"` - List the steps to build the project based on documentation, scripts, and configurations
 
-## What sources does `@workspace` use for context?
-
+#**# What sources does `@workspace` use for context?
+**
 To answer your question, `@workspace` searches through the same sources a developer would use when navigating a codebase in VS Code:
 
 - All [indexable files](#what-content-is-included-in-the-workspace-index) in the workspace, except for files that are ignored by a `.gitignore` file
